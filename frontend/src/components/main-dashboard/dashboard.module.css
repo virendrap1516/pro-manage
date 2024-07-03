@@ -1,0 +1,85 @@
+.container {
+  width: 100%;
+}
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 1.2rem;
+  font-weight: 550;
+  color: #707070;
+}
+.board {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-weight: 530;
+  padding-inline: 2rem;
+  padding-top: 0.6rem;
+}
+.boardChild {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #707070;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.select {
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.option {
+  padding: 0.6rem;
+  font-family: "Poppins", sans-serif;
+}
+.scrollContainer {
+  width: 100%;
+  height: 82vh;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #8daab9 #d6eaf4;
+  position: relative;
+}
+.boxMain {
+  margin-top: 6px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  height: 77vh;
+  padding: 2% 0 0 2%;
+  position: absolute;
+}
+.box {
+  width: 320px;
+  padding: 0 5px 5px 5px;
+  border-radius: 7px;
+  background-color: #eef2f5;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #8daab9 #d6eaf4;
+}
+.boxHead {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #eef2f5;
+}
+.addCollapseIcon{
+  font-size: 1.3rem;
+  display: flex;
+  gap: 10px;
+}

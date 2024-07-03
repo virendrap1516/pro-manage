@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+.left {
+  width: 60%;
+  height: 100vh;
+  background-color: #17a2b8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.img {
+  background-color: #268d9e;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  transform: translateY(30px);
+  margin-right: 20px;
+}
+.welcomeText {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.right {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formHeaderTxt {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+.InpMain {
+  width: 400px;
+  height: 45px;
+  border: 1.4px solid #e2e5e7;
+  border-radius: 9px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.InpMain input {
+  width: 350px;
+  border: none;
+  outline: none;
+  font-weight: 100;
+  height: 37px;
+  font-size: 15px;
+  color: #474646;
+  border-radius: 10px;
+}
+.InpMain input::placeholder {
+  color: #999;
+  font-weight: 100;
+}
+
+.require {
+  color: red;
+  font-size: 13px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.icon {
+  font-size: 24px;
+  color: #999;
+  margin-right: 10px;
+}
+
+.filledBtn {
+  width: 400px;
+  height: 45px;
+  background-color: #17a2b8;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.filledBtn:hover {
+  background-color: #00bcd8;
+}
+.blankBtn {
+  width: 400px;
+  height: 45px;
+  background-color: white;
+  color: #17a2b8;
+  font-size: 15px;
+  border: none;
+  border: 1.4px solid #17a2b8;
+  border-radius: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.blankBtn:hover {
+  background-color: rgb(247, 247, 247);
+  color: #17a2b8;
+}
+.accountText {
+  margin-block: 20px;
+  margin-bottom: 5px;
+  color: #636363;
+};
+
+.eyeIcon{
+  color: #999;
+  font-size: 22px;
+  cursor: pointer;
+  translate: "-15px"
+}

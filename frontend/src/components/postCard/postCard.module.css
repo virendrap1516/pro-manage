@@ -1,0 +1,187 @@
+.mainBox {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 17px;
+  position: relative;
+}
+.Circle {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+.prioritySection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priorityChild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 0.5rem;
+  color: #707070;
+}
+.nameCircle {
+  background-color: #ffebeb;
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  cursor: pointer;
+}
+
+.assignEmail {
+  display: none;
+  padding-inline: 10px;
+  font-size: 10px;
+  min-height: 23px;
+  max-width: 140px;
+  overflow-y: auto;
+  color: black;
+  transform: translate(-7px, 3px);
+}
+
+.nameCircle:hover + .assignEmail {
+  flex-direction: column;
+  display: flex;
+}
+.assignEmail:hover {
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+.threeDot {
+  cursor: pointer;
+}
+.threeDotElement {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 500;
+  padding-left: 10px;
+  border-radius: 11px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  top: 34px;
+  right: 10px;
+  width: 140px;
+  height: 110px;
+  background-color: white;
+  box-shadow: 5px 11px 12px 10px rgba(0, 0, 0, 0.1);
+}
+.DotElement {
+  max-width: fit-content;
+  padding-inline: 6px;
+  cursor: pointer;
+}
+.DotElement:last-child {
+  color: #cf3636;
+}
+
+.hiddenTitle {
+  display: none;
+  position: absolute;
+  width: 87%;
+  top: 10px;
+  left: 1;
+  background-color: rgba(214, 214, 214, 0.863);
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 3px;
+}
+.hiddenTitle::after {
+  content: "";
+  position: absolute;
+  margin-left: -5px;
+  border-width: 5px;
+  bottom: -10px;
+  left: 50%;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.hero {
+  padding-block: 7px;
+  font-weight: 500;
+}
+.checklist {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeecec;
+}
+.arrow:hover {
+  background-color: #dcdcdc;
+}
+.todoBoxContainer {
+  margin-top: 10px;
+}
+.todoBox {
+  width: 100%;
+  border: 1.6px solid #dfdede;
+  font-family: "Inter", sans-serif;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 35px 10px 5px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 9px;
+}
+.checkBox {
+  font-size: 30px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.todoContent {
+  text-align: start;
+}
+.footer {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #767575;
+  font-size: 8px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.catogaryList {
+  display: flex;
+  gap: 8px;
+}
+.footerbox {
+  padding: 5px 10px;
+  border-radius: 6px;
+  background-color: #eeecec;
+  cursor: pointer;
+}
+.footerbox:hover {
+  background-color: #dedede;
+}

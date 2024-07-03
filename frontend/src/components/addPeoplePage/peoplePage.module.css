@@ -1,0 +1,73 @@
+.mainContainer {
+  background-color: rgba(48, 61, 67, 0.55);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  width: 500px;
+  height: 220px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.headerTxt {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.emailInput {
+  width: 160%;
+  gap: 10px;
+  font-size: 15px;
+  scale: 0.6;
+  transform: translateX(-35%);
+}
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(169, 169, 169);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 17px;
+}
+.input::placeholder {
+  color: gray;
+  /* font-size: 15px; */
+}
+.bothButton {
+  display: flex;
+  justify-content: space-between;
+}
+.cancleBtn {
+  background-color: white;
+  font-weight: 600;
+  cursor: pointer;
+  width: 48%;
+  border: 1.2px solid rgba(207, 54, 54, 1);
+  color: rgba(207, 54, 54, 1);
+  padding: 8px;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.addEmailBtn {
+  background-color: #17a2b8;
+  font-weight: 600;
+  cursor: pointer;
+  width: 48%;
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+}
